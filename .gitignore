@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+.pytest_cache/
+.ipynb_checkpoints/
+.idea/
+build
+dist
+nlpkit_ml.egg-info
