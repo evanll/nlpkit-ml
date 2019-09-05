@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/evanll/nlpkit-ml.svg?branch=master)](https://travis-ci.org/evanll/nlpkit-ml)
+
 # NLPkit - Transformers for text classification
 A library of scikit compatible text transformers, that are ready to be integrated in an NLP pipeline for various classification tasks.  
 
