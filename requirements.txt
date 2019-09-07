@@ -11,7 +11,7 @@ idna==2.8
 importlib-metadata==0.19
 jmespath==0.9.4
 more-itertools==7.2.0
-nltk==3.3
+nltk==3.4.5
 numpy==1.14.5
 packaging==19.1
 pluggy==0.12.0
