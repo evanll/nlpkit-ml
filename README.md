@@ -37,7 +37,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 1. Python 3.6
-2. Stanford CoreNLP Server (for some transformers)
+2. Stanford CoreNLP Server for some transformers
 3. Pre-trained word vectors for the w2v transformer
 
 ### Stanford CoreNLP Server with Docker

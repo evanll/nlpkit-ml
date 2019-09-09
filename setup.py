@@ -18,7 +18,7 @@ setuptools.setup(
                 "for various classification tasks.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/evanlal/nlpkit-ml",
+    url="https://github.com/evanll/nlpkit-ml",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
