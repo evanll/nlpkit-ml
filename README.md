@@ -38,11 +38,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Python 3.6
 2. Stanford CoreNLP Server (for some transformers)
+3. Pre-trained word vectors for the w2v transformer
 
 ### Stanford CoreNLP Server with Docker
 Stanford CoreNLP is required for constituency parsing, POS and NER tagging.
 
 The easiest way is to have a CoreNLP Server running is to use Docker. You can find a Dockerfile and instructions to have the server running at [Stanford CoreNLP Server - Docker](https://github.com/evanlal/stanford-corenlp-docker).
+
+### Word vectors
+If you don't want to train your own word embeddings, you can download pre-trained word vectors from the [Stanford GloVe project](http://nlp.stanford.edu/projects/glove). 
+For example, the Wikipedia model has a vocabulary of 400K words, represented using 300 dimensional vectors. 
+The word vectors come in the GloVe format and need to be converted into the word2vec format. 
+While the formats are almost identical, you can use gensim to do the conversion.
+
+```
+python -m gensim.scripts.glove2word2vec -i glove.txt -o word2vec.txt
+```
 
 ## List of transformers
 - POSTagPreprocessor: Pre-processes text documents by tagging each word in the form of word_TAG_ e.g. what_WP. Can be used to generate POS tagged n-grams
